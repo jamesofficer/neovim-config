@@ -1,5 +1,4 @@
 return {
-
   -- Add git blame
   { "f-person/git-blame.nvim" },
 
@@ -12,7 +11,7 @@ return {
     dependencies = {
       "nvim-telescope/telescope.nvim",
       -- to show diff splits and open commits in browser (needs to be installed)
-      "tpope/vim-fugitive"
-    }
+      "tpope/vim-fugitive",
+    },
   },
 }
